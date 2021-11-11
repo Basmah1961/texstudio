@@ -296,7 +296,7 @@ unit-text-tt=
 #keyvals:\sisetup,\ang,\DeclareSIUnit,\num,\numlist,\numrange,\SI,\SIlist,\SIrange
 input-close-uncertainty=
 input-comparators=
-input-complex-roots=
+input-complex-root=#i,j
 input-decimal-markers=
 input-digits=
 input-exponent-markers=
@@ -311,10 +311,12 @@ parse-numbers#true,false
 ## Post-processing numbers ; section 5.5
 #keyvals:\sisetup,\ang,\DeclareSIUnit,\num,\numlist,\numrange,\SI,\SIlist,\SIrange
 add-decimal-zero#true,false
+drop-zero-decimal#true,false
 add-integer-zero#true,false
 explicit-sign=
 fixed-exponent=
 minimum-integer-digits=
+minimum-decimal-digits=
 omit-uncertainty#true,false
 retain-explicit-plus#true,false
 retain-unity-mantissa#true,false
